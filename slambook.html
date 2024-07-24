@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-image: url("images.jpg");
+            background-size: cover;
+            text-align: center;
+        }
+        form
+        {
+             background-color: rgba(182, 224, 235, 0.77);
+             align-items: center;
+             width:500px;
+             height:500px;
+             margin-left: 500px;
+             margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+   <form>
+    <h1 style="text-align: center;">Slambook</h1><br>
+    <h3>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+    <br>DOB:<input type="date"><br><br>
+Gender:<input type="radio" id="male" name="gender" value="male">Male
+    <input type="radio" id="female" name="gender"value="female">Female<br><br>
+    Subject:<input type="checkbox">ECE
+    <input type="checkbox">CSE <input type="checkbox">IT 
+    <br><br>
+    <label for="hobbies">Hobbies:</label>
+    <input type="text" id="hobbies" name="hobbies"><br><br>
+    <label for="phone">Phone number:</label>
+    <input type="text" id="phone" name="phone"><br><br>
+    <label for="yourself">Tell me about yourself:</label>
+    <textarea id="yourself" name="yourself" rows="4" cols="50"></textarea><br>
+    <input type="submit" style="background-color: cadetblue;">
+    </h3>
+   </form>
+</body>
+</html>
