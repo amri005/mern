@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: flex;
+            
+        }
+        @media screen and (max-width: 800px)
+        {
+            div{
+                display:grid;
+                grid-template-columns: 200px 200px;
+            }
+        }
+        @media screen and (max-width: 500px)
+        {
+            div{
+                display: grid;
+                grid-template-columns: 200px;
+            }
+        }
+        img{
+            margin:50px;
+        }
+        </style>
+</head>
+<body>
+    <div>
+        <img src="mrbean.jpg" height="300px" width="300px">
+        <img src="tom.jpg" height="300px" width="300px">
+        <img src="chutki.jpg" height="300px" width="300px">
+        <img src="bheem.jpg" height="300px" width="300px">
+    </div>
+</body>
+</html>
