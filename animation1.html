@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: rgb(158, 109, 205);
+            height: 100px;
+            width: 100px;
+            animation-name: anime;
+            animation-duration: 5s;
+            position: relative;
+            top: 20px; 
+            left:20px;
+        }
+        @keyframes anime{
+            from{background-color:  rgb(158, 109, 205);
+            position: 20;}
+            to{background-color: rgb(226, 142, 191);
+            position: ;}
+        }
+        .close{
+            background-color: rgb(160, 121, 196) ;
+            height: 100px;
+            width: 100px;
+            animation-name: amri;
+            animation-duration: 5s;
+            position:relative;
+            top:100px;
+            left:100px;
+            animation-iteration-count: infinite;
+        }
+        @keyframes amri{
+            0% {background-color: rgb(141, 106, 174); left:100px; top:100px;}
+            25%{background-color: rgb(182, 107, 186); left:300px; top:100px;}
+            50%{background-color: rgb(176, 209, 245); left:300px; top:300px;}
+            75%{background-color: rgb(216, 126, 138); left:100px; top:300px;}
+            100%{background-color: rgb(146, 113, 216);left:100px; top:100px}
+        }
+        </style>
+</head>
+<body>
+    <div></div>
+    <div class="close"></div>
+</body>
+</html>
